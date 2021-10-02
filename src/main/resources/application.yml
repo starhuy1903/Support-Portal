@@ -1,0 +1,20 @@
+jwt:
+  secret: 'dhfjdhsjfkhadsfhakjfkadhskjfhkjadhsjfhads4564hd3fg4hfgdfg'
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    password: 518641
+    url: jdbc:postgresql://localhost:5432/supportportal
+    username: postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+      show-sql: true
