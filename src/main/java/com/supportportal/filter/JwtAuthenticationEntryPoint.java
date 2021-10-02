@@ -5,6 +5,7 @@ import com.supportportal.constant.SecurityConstant;
 import com.supportportal.domain.HttpResponse;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.Http403ForbiddenEntryPoint;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -15,6 +16,7 @@ import static com.supportportal.constant.SecurityConstant.FORBIDDEN_MESSAGE;
 import static org.springframework.http.HttpStatus.FORBIDDEN;
 import static org.springframework.util.MimeTypeUtils.APPLICATION_JSON_VALUE;
 
+@Component
 public class JwtAuthenticationEntryPoint extends Http403ForbiddenEntryPoint {
 
     @Override
