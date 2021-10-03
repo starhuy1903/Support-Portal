@@ -9,18 +9,17 @@ server:
 
 spring:
   datasource:
-    password: 518641
-    url: jdbc:postgresql://localhost:5432/supportportal
-    username: postgres
+    password: 7518hUy4641!
+    url: jdbc:mysql://localhost:3306/supportportal
+    username: root
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: true
-      show-sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
 #  mvc:
 #    throw-exception-if-no-handler-found: true
 #  resources:
