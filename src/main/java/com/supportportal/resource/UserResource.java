@@ -3,6 +3,7 @@ package com.supportportal.resource;
 import com.supportportal.domain.HttpResponse;
 import com.supportportal.domain.User;
 import com.supportportal.domain.UserPrincipal;
+import com.supportportal.exception.ExceptionHandling;
 import com.supportportal.exception.domain.*;
 import com.supportportal.service.UserService;
 import com.supportportal.utility.JWTTokenProvider;

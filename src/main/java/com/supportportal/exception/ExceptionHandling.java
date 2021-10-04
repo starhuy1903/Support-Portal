@@ -1,7 +1,11 @@
-package com.supportportal.exception.domain;
+package com.supportportal.exception;
 
 import com.auth0.jwt.exceptions.TokenExpiredException;
 import com.supportportal.domain.HttpResponse;
+import com.supportportal.exception.domain.EmailExistException;
+import com.supportportal.exception.domain.EmailNotFoundException;
+import com.supportportal.exception.domain.UserNotFoundException;
+import com.supportportal.exception.domain.UsernameExistException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.web.servlet.error.ErrorController;
