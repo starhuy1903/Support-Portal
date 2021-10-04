@@ -1,0 +1,26 @@
+jwt:
+  secret: 'dhfjdhsjfkhadsfhakjfkadhskjfhkjadhsjfhads4564hd3fg4hfgdfg'
+
+server:
+  port: 8080
+#  error:
+#    whitelabel:
+#      enabled: false
+
+spring:
+  datasource:
+    password: 7518hUy4641!
+    url: jdbc:mysql://localhost:3306/supportportal
+    username: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+#  mvc:
+#    throw-exception-if-no-handler-found: true
+#  resources:
+#    add-mappings: false
